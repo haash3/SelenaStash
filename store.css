@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+:root {
+  --secondary-font: "Poppins", sans-serif;
+  --main-font: "Julius Sans One", sans-serif;
+  --font-primary-color: white;
+  --background-color: #050505;
+  --font-secondary-color: #9c4f4f;
+}
+body {
+  background-color: var(--background-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_title {
+  font-family: var(--main-font);
+  margin: 3rem;
+  font-size: 2rem;
+}
+.header_title::after {
+  content: "";
+  display: block;
+  border-bottom: 1.5px solid var(--font-secondary-color);
+  margin-top: 6px;
+}
+.header_links {
+    display: flex;
+    gap: 20px;
+    margin: 3rem;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+.link{
+    transition: transform color 5s ease-in-out;
+}
+.link:hover{
+    scale: 0.9;
+    color: var(--font-secondary-color);
+}
+.fa-cart-shopping{
+    font-size: 1.5rem;
+}
+.cart_count{
+    display: inline-block;
+    font-size: 0.7rem;
+    background-color: var(--font-secondary-color);
+    padding: 3px;
+    height: 15px;
+    width: 15px;
+    border-radius: 5rem;
+    text-align: center;
+}
+/* END Header */
+
+/* START Product List */
+.product-list{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product_list_item{
+    padding: 10px;
+    text-align: center;
+    font-family: var(--secondary-font);
+}
+.item_img{
+    width: 250px;
+    height: auto;
+    filter: brightness(0.9);
+    margin-bottom: 5px; 
+    cursor: pointer;
+    transition: transform scale(1) 3s ease-in;
+}
+.item_img:hover{
+    filter: brightness(0.5);
+    scale: 0.9;
+}
+.item_name{
+    font-size: 1.3rem;
+    font-weight:400;
+}
+.product_list_item button{
+    background-color: var(--background-color);
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 10px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--font-primary-color);
+    color: var(--background-color);
+}
