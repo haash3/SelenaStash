@@ -1,5 +1,4 @@
 # SelenaStash🌟
-## Selena Gomez Fan Website
 Welcome👋 to the Selena Gomez Fan Website repository!😄
 ## About
 - This project is a showcase of my skills in HTML, CSS, and vanilla JavaScript. 👩‍💻
