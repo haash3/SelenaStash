@@ -42,6 +42,13 @@ header {
     font-size: 1.2rem;
     cursor: pointer;
 }
+.header_links a{
+  text-decoration: none;
+}
+.header_links a:hover{
+  color: var(--font-secondary-color);
+
+}
 .link{
   transition: 0.3s ease;
 }

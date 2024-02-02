@@ -8,7 +8,7 @@
   --main-font: "Julius Sans One", sans-serif;
   --font-primary-color: white;
   --background-color: #050505;
-  --hover-color: rgb(150, 150, 150);
+  --hover-color: #9c4f4f;
 }
 body {
   background-color: var(--background-color);
@@ -51,10 +51,12 @@ body {
   font-weight: 800;
   margin: 0;
   padding: 0;
+}
+.hover{
   transition: 0.3s ease;
 }
-.header_nav :hover {
-  transform: scale(0.9);
+.hover:hover {
+  scale: 0.9;
   color: var(--hover-color);
 }
 .header_icons {
@@ -96,10 +98,11 @@ body {
 }
 .explore-music_head {
   font-family: var(--secondary-font);
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 500;
   /* margin-top: 3rem; */
-  margin-left: 5rem;
+  margin-left: 7rem;
+  margin-right: 5rem;
   letter-spacing: 2px;
 }
 .explore-music_head #sg {
@@ -107,7 +110,8 @@ body {
     font-size: 3rem;
   }
 .explore-music_img img{
-    scale: 0.7;
+    scale: 0.8;
+    /* margin-left: 4rem; */
 }
 /* END explore Music */
 
@@ -128,7 +132,13 @@ body {
     font-weight: 700;
 }
 /* START explore store */
-
+/* Link */
+ a{
+  text-decoration: none;
+}
+ a:hover{
+  color: inherit;
+}
 .explore-store {
     width: 100%;
     display: flex;
