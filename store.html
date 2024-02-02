@@ -28,7 +28,7 @@
     <!-- Font links -->
     <!-- External files -->
     <link rel="stylesheet" href="./store.css" />
-    <script src="./script.js" defer></script>
+    <script src="./store.js" defer></script>
     <!-- External files -->
     <title>Store</title>
   </head>
@@ -47,13 +47,37 @@
         </div>
       </header>
       <!-- END Header -->
+      <!-- START Product list -->
       <div class="product-list">
         <div class="product_list_item">
-            <img src="./images/product items/image 1.png" class="item_img">
-            <div class="item_name">Product Name</div>
-            <div class="item_price">₹3000</div>
-            <button>Add To Cart</button>
+          <img src="./images/product items/image 1.png" class="item_img" />
+          <div class="item_name">Product Name</div>
+          <div class="item_price">₹3000</div>
+          <button class="addCart">Add To Cart</button>
         </div>
+      </div>
+      <!-- END Product list -->
+    </div>
+    <!-- START Cart Tab -->
+    <div class="cart-tab">
+      <h2>Shopping Cart</h2>
+      <div class="cart-tab_list">
+        <div class="cart_item">
+          <div class="image">
+            <img src="./images/product items/image 1.png" alt="">
+          </div>
+          <div class="name">Product Name</div>
+          <div class="price">₹300</div>
+          <div class="quantity">
+            <span class="minus">-</span>
+            <span id="cartNum">1</span>
+            <span class="plus">+</span>
+          </div>
+        </div>
+      </div>
+      <div class="cart-tab_btns">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">CHECK OUT</button>
       </div>
     </div>
   </body>
