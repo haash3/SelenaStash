@@ -175,6 +175,7 @@ body.showCart .cart-tab{
     background-color:#7d40408f ;
     border-radius: 50%;
     padding: 4px;
+    cursor: pointer;
 }
 .cart_item .quantity span:nth-child(2){
   background-color: transparent;

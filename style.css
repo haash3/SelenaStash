@@ -70,6 +70,9 @@ body {
 .fa-brands {
   color: var(--font-primary-color);
 }
+.fa-brands:hover {
+  color: #874848;
+}
 .header_body {
   position: absolute;
   top: 50%;
@@ -108,6 +111,8 @@ body {
 .explore-music_head #sg {
     font-family: var(--main-font);
     font-size: 3rem;
+    border-bottom: 1.5px solid #9c4f4f;
+    padding: 10px;
   }
 .explore-music_img img{
     scale: 0.8;
@@ -143,7 +148,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 5rem;
   }
 
 .explore-store_img img{
@@ -151,24 +157,33 @@ body {
     height: 700px;
     transform: scale(1);
     filter: brightness(0.8);
-    margin-left: 5rem;
+    margin-left: 8rem;
     margin-right: 5rem;
 }
 
   .explore-store_head {
     font-family: var(--secondary-font);
-    font-size: 4rem;
+    font-size: 5rem;
     margin-right: 5rem;
+    margin-left: 8rem;
     font-weight: 500;
     letter-spacing: 2px;
   }
   #rare-beauty{
+    display: inline-block;
+    margin: 0;
     font-size: 4rem;
     font-family: var(--main-font);
+    letter-spacing: 10px;
   }
+
   .description{
     font-size: 2rem;
     font-weight: 200;
+  }
+  #store-btn{
+    margin-top: 3rem;
+
   }
 
   hr {
@@ -179,7 +194,7 @@ body {
 
   .signup-text{
     color: var(--font-primary-color);
-    margin: 6rem 6rem;
+    margin: 6rem 8rem;
     font-family: var(--secondary-font);
     font-size: 2rem;
     font-weight: 600;

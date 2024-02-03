@@ -2,97 +2,97 @@
     {
         "id" : 1,
         "name" : "Body & Hair Fragrance Mist",
-        "price" : "₹1000",
+        "price" : "1000",
         "image" : "images/product items/image 1.png"
     },
     {
         "id" : 2,
         "name" : "Hydrating Body Lotion",
-        "price" : "₹2000",
+        "price" : "2000",
         "image" : "images/product items/image 2.png"
     },
     {
         "id" : 3,
         "name" : "Hydrating Hand Cream",
-        "price" : "₹1100",
+        "price" : "1100",
         "image" : "images/product items/image 3.png"
     },
     {
         "id" : 4,
         "name" : "Aromatherapy Pen",
-        "price" : "₹900",
+        "price" : "900",
         "image" : "images/product items/image 4.png"
     },
     {
         "id" : 5,
         "name" : "Tinted Clutch",
-        "price" : "₹850",
+        "price" : "850",
         "image" : "images/product items/image 5.png"
     },
     {
         "id" : 6,
         "name" : " Dewy Lip Balm",
-        "price" : "₹500",
+        "price" : "500",
         "image" : "images/product items/image 17.png"
     },
     {
         "id" : 7,
         "name" : "Matte Liquid Liner",
-        "price" : "₹1000",
+        "price" : "1000",
         "image" : "images/product items/image 7.png"
     },
     {
         "id" : 8,
         "name" : "Flexible Lifting Gel",
-        "price" : "₹1200",
+        "price" : "1200",
         "image" : "images/product items/image 8.png"
     },
     {
         "id" : 9,
         "name" : "Neutral Lip Duo",
-        "price" : "₹1500",
+        "price" : "1500",
         "image" : "images/product items/image 9.png"
     },
     {
         "id" : 10,
         "name" : " Matte Lipstick",
-        "price" : "₹900",
+        "price" : "900",
         "image" : "images/product items/image 10.png"
     },
     {
         "id" : 11,
         "name" : "Comfy Sweatpants",
-        "price" : "₹1000",
+        "price" : "1000",
         "image" : "images/product items/image 11.png"
     },
     {
         "id" : 12,
         "name" : "Blush, Bronze, & Luminize Custom Set",
-        "price" : "₹1500",
+        "price" : "1500",
         "image" : "images/product items/image 12.png"
     },
     {
         "id" : 13,
         "name" : "Comfy Hoodie",
-        "price" : "₹1000",
+        "price" : "1000",
         "image" : "images/product items/image 13.png"
     },
     {
         "id" : 14,
         "name" : "Lip Balm",
-        "price" : "₹1000",
+        "price" : "1000",
         "image" : "images/product items/image 14.png"
     },
     {
         "id" : 15,
         "name" : "Lip Balm",
-        "price" : "₹1000",
+        "price" : "1000",
         "image" : "images/product items/image 15.png"
     },
     {
         "id" : 16,
         "name" : "Bronzer Stick",
-        "price" : "₹700",
+        "price" : "700",
         "image" : "images/product items/image 16.png"
     }
     
