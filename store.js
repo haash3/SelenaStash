@@ -8,7 +8,7 @@ let cartCount = document.querySelector(".cart_count");
 // ---------Create Elements------------
 let listProducts = [];
 let cart = [];
-// ---------Create Elements------------
+// ---------Create Elements END------------
 
 // ----------Event Listeners------------
 cartIcon.addEventListener("click", () => {
@@ -34,7 +34,7 @@ listCartHTML.addEventListener("click", (e) => {
   }
 });
 
-// ----------Event Listeners------------
+// ----------Event Listeners END------------
 
 // -------Create FUNCTIONS----------
 // increments and decrements items in cart

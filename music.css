@@ -52,4 +52,66 @@
   a:hover{
     color: inherit;
   }
-  
+  .container{
+    margin: 4rem;
+    width: 100vw;
+  }
+  .container .popular{
+    font-family: var(--secondary-font);
+  }
+  .popular .title{
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    line-height: 3rem;
+    text-transform: uppercase;
+  }
+  .title .tagline{
+    font-size: 1.3rem;
+    font-family: var(--main-font);
+    letter-spacing: 5px;
+    color: var(--font-secondary-color);
+  }
+  .popular img{
+    width: 300px;
+    transition: 1s ease;
+    cursor: pointer;
+    position: relative;
+  }
+  .popular img:hover{
+    scale: 1.1;
+  }
+  .musicCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 2rem 2rem;
+  }
+  .item div{
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+ .albumInfo img{
+    width: 400px;
+ }
+ .albumInfo{
+    margin: 15rem 26rem;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-around; */
+    font-family: var(--secondary-font);
+ }
+ .album-title{
+    color: var(--font-secondary-color);
+    font-size: 5rem;
+    letter-spacing: 5px;
+    /* margin-left: 2rem; */
+ }
+ .song{
+    margin-left: 15px;
+    font-size: 1.3rem;
+ }
